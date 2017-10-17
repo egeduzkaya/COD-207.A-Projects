@@ -1,5 +1,5 @@
 int a = 210;
-int b = 450;
+int b = 470;
 int c = 50;
 int d = 50;
 
@@ -15,8 +15,8 @@ void draw () {
 
   //feets
   fill(#EDDCE4);
-  arc(a, b, c, d, 0, PI);
-  arc(a + 80, b, c, d, 0, PI);
+  arc(a, b, c, d, PI, PI*2);
+  arc(a + 80, b, c, d, PI, PI*2);
 
   //first parts of leg
   fill(#F7E6EC);
